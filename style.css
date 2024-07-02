@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --darkBlue : #341f97;
+    --pink :#ffcccc;
+    --ocean :#81ecec;
+    --medBlue :#7d5fff;
+    --darkblueText :#40407a;
+}
+.navBar{
+    background-color: #222f3e;
+}
+.contact span{
+    color: white;
+    font-weight: 500;
+}
+.contact img{
+    padding: 6px;
+}
+.location span{
+color: white;
+
+}
+
+.social-icons {
+    text-align: center;
+    ;
+}
+
+.icons {
+    display: inline-block; 
+}
+.icons img{
+    width: 30px;
+    padding-bottom: 7px; 
+}
+.pinkBg{
+    background-color: var(--pink);
+    border: none;
+    border-radius: 0;
+}
+.mybtn1{
+    background-image: linear-gradient(to right, var(--darkBlue), var(--ocean));
+    color: white;
+    border: none;
+    font-weight: 500;
+}
+.mybtn1:hover{
+    background-image: linear-gradient(to right,var(--ocean), var(--darkBlue));
+    color:white;
+}
+.myContent{
+    font-weight: 400;
+}
+.myCards .card{
+    border:none;
+    border-radius: 0;
+    background-color: rgb(246, 249, 249);
+}
+.myCards .card h3{
+    color:var(--darkblueText);
+    font-weight: 600;
+}
+.myCards .card p{
+    font-weight: 500;
+
+}
+.line{
+    border-left:2px solid var(--ocean) ;
+}
+
+.cardss{
+    border: none;
+}
+.myIconz i{
+color:var(--medBlue);
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.myIconz h4 {
+    color: white;
+}
+.myIconz p{
+    color: rgb(227, 229, 230);
+}
+.contactInfo h4{
+    color: white;
+}
+.contactInfo span{
+    color: rgb(227, 229, 230);
+}
+.underLine{
+    border-bottom: 3px solid var(--medBlue);
+    width: 10%;
+}
+h1 , h2 , h3 , h4{
+    font-family: "Arsenal SC", sans-serif;
+}
+p , span{
+    font-family: "Mulish", sans-serif;
+}
+.homeCard{
+    border: none;
+}
